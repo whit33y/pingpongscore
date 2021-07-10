@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Encode Sans SC', sans-serif;
+
+}
+
+img {
+    border: 4px solid yellow;
+    border-radius: 20px;
+}
+
+#container {
+    height: 450px;
+    width: 480px;
+    background-color: aqua;
+    border: 3px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+#container img {
+    height: 60%;
+    width: 100%;
+}
+
+button {
+    font-family: 'Encode Sans SC', sans-serif;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+h2 {
+    border-radius: 20px;
+    margin: 9px 50px;
+    font-size: 2.5em;
+    border: 3px solid black;
+    background-color: yellow;
+    font-family: 'Qahiri', sans-serif;
+}
+
+h5 {
+    font-size: 1.3em;
+    margin: 0 0px;
+}
