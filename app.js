@@ -18,7 +18,7 @@ addOne.addEventListener("click", function () {
             addOne.style.display = "none";
             addTwo.style.display = "none";
             winner.style.display = "block";
-            winner.textContent = "Player one win!"
+            winner.textContent = "Player one win, congrats!"
         }
         one.textContent = first;
     }
@@ -32,7 +32,7 @@ addTwo.addEventListener("click", function () {
         addOne.style.display = "none";
         addTwo.style.display = "none";
         winner.style.display = "block";
-        winner.textContent = "Player two win!"
+        winner.textContent = "Player two win, congrats!"
     }
     two.textContent = second;
 })
